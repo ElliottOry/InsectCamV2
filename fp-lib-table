@@ -1,0 +1,12 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "camera_flexa") (type "KiCad") (uri "${KIPRJMOD}/footprints") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/footprints.pretty") (options "") (descr ""))
+	(lib (name "DRV8837CDSGR") (type "KiCad") (uri "/Users/elliottory/Desktop/File References/KiCad/Libraries/LIB_DRV8837CDSGR/DRV8837CDSGR/KiCad") (options "") (descr ""))
+	(lib (name "INA191A2IYFDR") (type "KiCad") (uri "/Users/elliottory/Desktop/File References/KiCad/Libraries/LIB_INA191A2IYFDR/INA191A2IYFDR/KiCad") (options "") (descr ""))
+	(lib (name "LSM6DSV16BXTR") (type "KiCad") (uri "/Users/elliottory/Desktop/File References/KiCad/Libraries/LIB_LSM6DSV16BXTR/LSM6DSV16BXTR/KiCad") (options "") (descr ""))
+	(lib (name "TCR3UG33B,LF") (type "KiCad") (uri "/Users/elliottory/Desktop/File References/KiCad/Libraries/LIB_TCR3UG33B,LF/TCR3UG33B,LF/KiCad") (options "") (descr ""))
+	(lib (name "externalpads") (type "KiCad") (uri "/Users/elliottory/Desktop/File References/KiCad/Libraries/externalpads.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "/Users/elliottory/Desktop/File References/KiCad/Libraries/externalpads/Library.pretty") (options "") (descr ""))
+	(lib (name "externalpadsfootprint") (type "KiCad") (uri "/Users/elliottory/Desktop/File References/KiCad/Libraries/externalpadsfootprint.pretty") (options "") (descr ""))
+)

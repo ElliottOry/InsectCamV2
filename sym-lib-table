@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "himax_hm01b0")(type "KiCad")(uri "${KIPRJMOD}/himax_hm01b0.kicad_sym")(options "")(descr ""))
+  (lib (name "hm01b0_schematic")(type "KiCad")(uri "${KIPRJMOD}/hm01b0_schematic.kicad_sym")(options "")(descr ""))
+  (lib (name "ES2832AA2")(type "KiCad")(uri "${KIPRJMOD}/ES2832AA2.kicad_sym")(options "")(descr ""))
+  (lib (name "ICM-42688-P")(type "KiCad")(uri "/Users/elliottory/Downloads/ICM-42688-P/ICM-42688-P.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-09-07_21-15-41")(type "KiCad")(uri "/Users/elliottory/Downloads/KiCADv6/2025-09-07_21-15-41.kicad_sym")(options "")(descr ""))
+)
