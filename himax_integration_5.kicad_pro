@@ -499,7 +499,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "ES2832AA2"
+    ]
   },
   "meta": {
     "filename": "himax_integration_5.kicad_pro",

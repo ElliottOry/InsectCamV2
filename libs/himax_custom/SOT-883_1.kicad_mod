@@ -1,0 +1,226 @@
+(footprint "SOT-883_1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT-883, https://assets.nexperia.com/documents/outline-drawing/SOT883.pdf")
+	(tags "SOT-883")
+	(property "Reference" "REF**"
+		(at 0 -1.905 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2ff81286-c21e-4dbf-9d48-860829e7c5e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Q_NPN"
+		(at 0 1.905 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "588130ee-a7c9-4c13-9cc6-43046827d1af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b19209b-e0b4-4a8b-899f-b0da1a4ef905")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "NPN bipolar junction transistor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21bb56d9-f678-4fd5-8662-e3c06d551765")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "himax_integration_5.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.81 -0.61)
+		(end 0.35 -0.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6349998f-495c-4467-ba30-5bea642b3a52")
+	)
+	(fp_line
+		(start -0.81 0.61)
+		(end -0.81 -0.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40e07fb0-a3bf-4167-b867-daee12d0fc18")
+	)
+	(fp_line
+		(start 0.35 0.61)
+		(end -0.81 0.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8276fb55-12a8-4fc4-b6fd-3dd7d6148e14")
+	)
+	(fp_line
+		(start -0.7 -0.5)
+		(end 0.7 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d710c4c-40d1-4091-a552-335f65a856d2")
+	)
+	(fp_line
+		(start -0.7 0.5)
+		(end -0.7 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38d3bda7-5d9e-434a-9601-fb66b7889f17")
+	)
+	(fp_line
+		(start 0.7 -0.5)
+		(end 0.7 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a29ff9e8-1677-48f8-91f8-b76cc7181fb1")
+	)
+	(fp_line
+		(start 0.7 0.5)
+		(end -0.7 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "30a7efca-57c8-4c20-aa68-a724f7a80009")
+	)
+	(fp_line
+		(start -0.51 0.31)
+		(end -0.51 -0.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf9aeb4d-1759-4d32-bdb2-4600e49392cd")
+	)
+	(fp_line
+		(start -0.31 -0.31)
+		(end -0.51 -0.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d7dbf7c-4d6f-4af1-8c71-53173a36a40c")
+	)
+	(fp_line
+		(start -0.31 -0.31)
+		(end 0.51 -0.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b73e3f4a-7b8d-49d7-98d3-bb5c742ab06d")
+	)
+	(fp_line
+		(start 0.51 -0.31)
+		(end 0.51 0.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fcff83bd-84af-42b6-8216-176568ce2cff")
+	)
+	(fp_line
+		(start 0.51 0.31)
+		(end -0.51 0.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "565cbd4a-f28f-4779-ba7b-6a8694e8019d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(uuid "7183d8e8-6da3-47c3-843b-10d16bb4341e")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.03)
+			)
+		)
+	)
+	(pad "B" smd roundrect
+		(at -0.35 -0.225)
+		(size 0.4 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "d74622d9-0258-4ba3-9b16-aa97060db251")
+	)
+	(pad "C" smd roundrect
+		(at 0.35 0)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "5a6f88d3-81e3-433a-ac06-63b954966e3d")
+	)
+	(pad "E" smd roundrect
+		(at -0.35 0.225)
+		(size 0.4 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "1279b4cb-be2f-4dec-8a54-bc6fcfc1da94")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-883.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

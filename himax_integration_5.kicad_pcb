@@ -317,7 +317,7 @@
 			)
 		)
 	)
-	(footprint "kicad_fp_sch_vreg:RR122"
+	(footprint "RR122:RR122"
 		(layer "F.Cu")
 		(uuid "176e8789-227b-4787-95a1-ab652b316b53")
 		(at 176.625 87.475 90)
@@ -438,7 +438,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "camera_flexa:PQFN50P300X250X97-14N"
+	(footprint "ICM-42688-P:PQFN50P300X250X97-14N"
 		(layer "F.Cu")
 		(uuid "241cc697-bff9-4e7f-a4db-79d661d4564c")
 		(at 178.202 84.071 90)
@@ -495,7 +495,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0887efc5-60ba-4f36-8885-4fd6e6dcbd6a")
+			(uuid "a3f7fc84-8f79-41d1-9931-ebf0d920cab2")
 			(effects
 				(font
 					(size 1 1)
@@ -508,7 +508,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34890b78-2b80-49c8-94ea-95f3ea49f720")
+			(uuid "5c37a9c6-daed-4b4c-af09-723ce183f260")
 			(effects
 				(font
 					(size 1 1)
@@ -521,7 +521,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "859ac46a-fe14-42aa-8c19-ac6746d57b39")
+			(uuid "57f98d75-2994-43dd-b519-8cf661c6151b")
 			(effects
 				(font
 					(size 1 1)
@@ -534,7 +534,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c7e7012-dc9f-46c8-b1ed-786daa64c6ec")
+			(uuid "a2a2c6f5-09dc-4b13-a76d-90b7748aefb4")
 			(effects
 				(font
 					(size 1 1)
@@ -547,7 +547,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c431547-c77d-481e-b95c-4d5cf389e21a")
+			(uuid "42ec44c2-3cf3-4c11-84f5-ee4bc5a18235")
 			(effects
 				(font
 					(size 1 1)
@@ -560,7 +560,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62bfb597-ce80-4fcf-97d4-796b09167e33")
+			(uuid "f93c1220-a9af-4284-8a23-60a8eec95098")
 			(effects
 				(font
 					(size 1 1)
@@ -573,7 +573,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "290038cc-1b02-49ed-9d4d-1a2a9b65319f")
+			(uuid "4daf5980-bd1a-46c7-8c05-6ce4ef537cc5")
 			(effects
 				(font
 					(size 1 1)
@@ -586,7 +586,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "391a3d4a-a0fe-4751-a527-47d3c79d15fd")
+			(uuid "a8ef1117-ba62-4bfb-98c5-d456aa9081e9")
 			(effects
 				(font
 					(size 1 1)
@@ -599,7 +599,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fa3227f-671d-4fc9-ab96-d4f81f0f893f")
+			(uuid "2348b3ff-190d-485b-9403-c692ac1bf7d3")
 			(effects
 				(font
 					(size 1 1)
@@ -612,7 +612,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d8c346f-0071-441d-89a7-108a6689d409")
+			(uuid "0b4b11ee-8de9-4910-b1c6-ebbbc3afde02")
 			(effects
 				(font
 					(size 1 1)
@@ -625,7 +625,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b65da60c-4a04-4243-af76-0eb5c68dfc34")
+			(uuid "1417a8db-74e2-4086-93fb-d7365fc87fe1")
 			(effects
 				(font
 					(size 1 1)
@@ -638,7 +638,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bff26007-ed74-4c99-a365-e6809a73618f")
+			(uuid "07da407c-122f-40ed-8046-1a75bb02e94a")
 			(effects
 				(font
 					(size 1 1)
@@ -655,7 +655,7 @@
 				(pins "9" "12" "13" "14" "1" "8" "5" "4" "2" "3" "10" "11" "7" "6")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -1910,7 +1910,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector_Pin:ExternalPad_FP"
+	(footprint "himax_custom:ExternalPad_FP"
 		(layer "F.Cu")
 		(uuid "3413ecfe-8f97-4a14-a165-75ef8e300bb4")
 		(at 170.169 81.563)
@@ -3148,7 +3148,7 @@
 			)
 		)
 	)
-	(footprint "Package_TO_SOT_SMD:SOT-883_1"
+	(footprint "himax_custom:SOT-883_1"
 		(layer "F.Cu")
 		(uuid "65e9efb5-7cdf-4da0-a088-e182f4c69700")
 		(at 170.365 87.221 90)
@@ -3580,7 +3580,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Pin:ExternalPad_FP"
+	(footprint "himax_custom:ExternalPad_FP"
 		(layer "F.Cu")
 		(uuid "779e1b19-19f3-4e1f-880e-8b466b4d80d3")
 		(at 171.12 81.545)
@@ -4251,7 +4251,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Pin:ExternalPad_FP"
+	(footprint "himax_custom:ExternalPad_FP"
 		(layer "F.Cu")
 		(uuid "9e7dbc5c-c494-454d-854a-7e7c54fbcdd4")
 		(at 168.419 81.544)
@@ -5315,7 +5315,7 @@
 			)
 		)
 	)
-	(footprint "camera_flexa:camerah"
+	(footprint "HM01B0:camerah"
 		(layer "F.Cu")
 		(uuid "d13852e6-fc1b-4964-ac9e-835e142eceb9")
 		(at 166.773 84.473 90)
@@ -5942,7 +5942,7 @@
 			)
 		)
 	)
-	(footprint "Connector_Pin:ExternalPad_FP"
+	(footprint "himax_custom:ExternalPad_FP"
 		(layer "F.Cu")
 		(uuid "f0e331a0-2adb-47e5-9e09-a86e96dd6d9d")
 		(at 173.973 81.544)
@@ -6023,7 +6023,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Resistor_SMD:0hm 0603 metric 0.30 mm spacing"
+	(footprint "himax_custom:0hm 0603 metric 0.30 mm spacing"
 		(layer "F.Cu")
 		(uuid "f7c887da-3797-404d-8c84-3d3f4a53345e")
 		(at 178.594 86.23 180)
@@ -6202,7 +6202,7 @@
 			)
 		)
 	)
-	(footprint "ES2832AA2 (1):XCVR_ES2832AA2"
+	(footprint "ES2832AA2:XCVR_ES2832AA2_NO_ANTENNA"
 		(layer "F.Cu")
 		(uuid "f9333081-38d5-4820-b2fb-2ae2a9d02c51")
 		(at 172.446 84.177)
@@ -7105,7 +7105,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector_Pin:ExternalPad_FP"
+	(footprint "himax_custom:ExternalPad_FP"
 		(layer "F.Cu")
 		(uuid "fddc4ed6-4bd1-4b62-9921-b85ffe3fb756")
 		(at 174.712 88.842)
@@ -7186,7 +7186,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector_Pin:ExternalPad_FP"
+	(footprint "himax_custom:ExternalPad_FP"
 		(layer "F.Cu")
 		(uuid "fef45863-2bd0-4f97-a641-f516636e444d")
 		(at 171.955 81.545)

@@ -5,7 +5,7 @@
 	(uuid "87094224-ac53-48a1-85d8-268b9b52255d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:ExternalPad1"
+		(symbol "himax_custom:ExternalPad1"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -650,39 +650,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ES2832AA2:ES2832AA2"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "ES2832AA2:ES2832AA2_NO_ANTENNA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -22.86 25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ES2832AA2"
-				(at -22.86 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "ES2832AA2:XCVR_ES2832AA2"
-				(at 0 0 0)
+				(at -3.81 29.21 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -690,11 +665,31 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at -3.81 29.21 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -705,7 +700,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at -3.81 29.21 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -715,154 +710,10 @@
 					)
 				)
 			)
-			(property "MF" "Kaga FEI America, Inc."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.85mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/ES2832AA2/Kaga/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "1.1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ES2832AA2/Kaga/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "ES2832AA2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "BLE 5.0 (NRF52832) WITH ANTENNA,"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Kaga Fei"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "ES2832AA2_0_0"
+			(symbol "ES2832AA2_NO_ANTENNA_0_0"
 				(rectangle
-					(start -22.86 -22.86)
-					(end 22.86 22.86)
+					(start -22.86 22.86)
+					(end 22.86 -22.86)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1880,7 +1731,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad_fp_sch_vreg:RR122"
+			(property "Footprint" "RR122:RR122"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5413,7 +5264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:ExternalPad1")
+		(lib_id "himax_custom:ExternalPad1")
 		(at 165.1 99.06 180)
 		(unit 1)
 		(body_style 1)
@@ -5444,7 +5295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:ExternalPad_FP"
+		(property "Footprint" "himax_custom:ExternalPad_FP"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5490,7 +5341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:ExternalPad1")
+		(lib_id "himax_custom:ExternalPad1")
 		(at 156.21 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -5521,7 +5372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:ExternalPad_FP"
+		(property "Footprint" "himax_custom:ExternalPad_FP"
 			(at 156.21 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5567,7 +5418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:ExternalPad1")
+		(lib_id "himax_custom:ExternalPad1")
 		(at 93.98 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -5598,7 +5449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:ExternalPad_FP"
+		(property "Footprint" "himax_custom:ExternalPad_FP"
 			(at 93.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5675,7 +5526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_fp_sch_vreg:RR122"
+		(property "Footprint" "RR122:RR122"
 			(at 201.93 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6545,7 +6396,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:ExternalPad1")
+		(lib_id "himax_custom:ExternalPad1")
 		(at 76.2 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -6576,7 +6427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:ExternalPad_FP"
+		(property "Footprint" "himax_custom:ExternalPad_FP"
 			(at 76.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6780,7 +6631,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:ExternalPad1")
+		(lib_id "himax_custom:ExternalPad1")
 		(at 201.93 40.64 270)
 		(unit 1)
 		(body_style 1)
@@ -6813,7 +6664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:ExternalPad_FP"
+		(property "Footprint" "himax_custom:ExternalPad_FP"
 			(at 201.93 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8021,7 +7872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:ExternalPad1")
+		(lib_id "himax_custom:ExternalPad1")
 		(at 236.22 20.32 270)
 		(unit 1)
 		(body_style 1)
@@ -8054,7 +7905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:ExternalPad_FP"
+		(property "Footprint" "himax_custom:ExternalPad_FP"
 			(at 236.22 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -8455,7 +8306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-883_1"
+		(property "Footprint" "himax_custom:SOT-883_1"
 			(at 43.18 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8538,7 +8389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "camera_flexa:camerah"
+		(property "Footprint" "HM01B0:camerah"
 			(at 43.18 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8629,7 +8480,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ES2832AA2:ES2832AA2")
+		(lib_id "ES2832AA2:ES2832AA2_NO_ANTENNA")
 		(at 132.08 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -8660,8 +8511,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ES2832AA2 (1):XCVR_ES2832AA2"
-			(at 132.08 106.68 0)
+		(property "Footprint" "ES2832AA2:XCVR_ES2832AA2_NO_ANTENNA"
+			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8669,11 +8520,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 106.68 0)
+			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8684,7 +8534,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 106.68 0)
+			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
